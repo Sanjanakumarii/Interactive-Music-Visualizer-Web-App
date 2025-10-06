@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+}
+
+h1 {
+  color: #ff4081;
+  margin-bottom: 20px;
+}
+
+#audio-file {
+  margin-bottom: 20px;
+}
+
+audio {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+canvas {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+  background: #000;
+  display: block;
+  margin: auto;
+}
